@@ -1,0 +1,20 @@
+# Sols RNG Macro - Requirements
+# No external packages required - uses Python standard library only
+
+# Python version: 3.8+
+# Required modules (all built-in):
+# - json
+# - random
+# - threading
+# - time
+# - tkinter
+# - urllib
+# - messagebox
+
+# Installation:
+# Simply run: python Codez-1.py
+
+# Optional: For enhanced functionality in future versions:
+# pip install pyautogui        # For mouse/keyboard automation
+# pip install discord.py       # For direct Discord bot integration
+# pip install requests         # For advanced HTTP requests

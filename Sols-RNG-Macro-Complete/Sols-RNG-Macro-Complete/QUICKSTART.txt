@@ -1,0 +1,97 @@
+# QUICK START GUIDE
+
+## Step 1: Run the Macro
+```
+python Codez-1.py
+```
+
+## Step 2: Configure Discord Webhook
+
+You need a Discord webhook URL to receive notifications.
+
+### How to Create a Discord Webhook:
+
+1. Go to your Discord server
+2. Right-click on a channel → Edit Channel
+3. Go to Integrations → Webhooks
+4. Click "New Webhook"
+5. Name it "Sols RNG Macro"
+6. Click "Copy Webhook URL"
+7. Paste it in the macro's "Webhook URL" field
+
+## Step 3: Configure Settings
+
+In the **Webhook** page:
+
+- **Webhook URL**: Paste your Discord webhook URL
+- **Private Server**: (Optional) Your private server ID
+- **Discord ID**: (Optional) Your Discord user ID
+- **Roblox User**: Enter your Roblox username
+- Click **Apply Username**
+
+## Step 4: Enable Features
+
+Check the boxes you want:
+- ✅ AFK Mode (optional)
+- ✅ Multiaccount (if using multiple accounts)
+- ✅ Aura / Biome Notifications (to get alerts)
+
+## Step 5: Select Biomes
+
+In the "Biome Ping" section, check which biomes you want to be notified about:
+- Corruption
+- Eggland
+- Heaven
+- Hell
+- And others...
+
+## Step 6: Test Webhook
+
+Click **Test Webhook** button to verify everything works.
+
+You should see a message in your Discord channel.
+
+## Step 7: Start the Macro
+
+Click **Start** button to begin!
+
+## Commands
+
+- **Start**: Begin the RNG macro
+- **Pause**: Pause/Resume the macro
+- **Stop**: Stop the macro completely
+- **Test Webhook**: Send a test message to Discord
+- **Save Config**: Save all settings to macro_config.json
+
+## Tips
+
+1. **Theme Selection**: Try different themes from the "Theme" dropdown
+2. **Random Colors**: Click "Random Colors" for a unique theme
+3. **Page Navigation**: Explore all 9 pages for different features
+4. **Logs**: Check the bottom log panel to see macro activity
+5. **Status**: Top of the main panel shows current macro status and last RNG event
+
+## Troubleshooting
+
+**Macro won't start?**
+- Make sure Python 3.8+ is installed
+- Try running from Command Prompt with: `python Codez-1.py`
+
+**No Discord notifications?**
+- Check your webhook URL is correct
+- Verify the Discord channel still exists
+- Click "Test Webhook" to verify
+
+**Settings not saving?**
+- Ensure you click "Save Config" button
+- Check that the folder is writable
+
+## Support Files
+
+- `README.md` - Full documentation
+- `requirements.txt` - Python dependencies (none required for core)
+- `macro_config.json` - Auto-generated configuration file
+- `Codez-1.py` - The main macro script
+
+Happy RNG hunting! 🎮
+Made by Coder-masa

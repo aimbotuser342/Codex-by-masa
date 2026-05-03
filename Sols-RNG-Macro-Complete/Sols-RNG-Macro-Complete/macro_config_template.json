@@ -1,0 +1,26 @@
+{
+    "webhook_url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+    "private_server": "",
+    "discord_id": "",
+    "roblox_user": "YourRobloxUsername",
+    "theme": "Black",
+    "biomes": {
+        "Corruption": false,
+        "Eggland": false,
+        "Heaven": false,
+        "Hell": false,
+        "Null": false,
+        "Rainy": false,
+        "Sand Storm": false,
+        "Singularity": false,
+        "Snowy": false,
+        "Starfall": false,
+        "Windy": false,
+        "Cyberspace": false,
+        "Dreamspace": false,
+        "Glitched": false
+    },
+    "afk_mode": false,
+    "multiaccount": false,
+    "use_aura_biome": false
+}
